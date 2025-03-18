@@ -4,28 +4,112 @@
         <title>HTML TABLES, LISTS</title>
     </head>
     <body>
-        <h1>HTML LISTS</h1>
-        <h3>Ordered lists</h3>
-        <ol type="1" >
-            <li>Monday</li>
-            <li>Tuesday</li>
-            <li>Wednesday</li>
-            <li>Thursday</li> 
-            <li>Friday</li>
-        </ol>
-        <h3>Unordered LISTS</h3>
-        <ul type="bullets">
-            <li>Apples</li>
-            <li>Mangoes</li>
-            <li>Bananas</li>
-            <li>Peas</li>
-        </ul>>
-        <h3>Defination list</h3>
-        <dl>
-            <dt>UL</dt>
-            <dd>UnOrder List</dd>
-            <dt>OL</dt>
-            <dd>Ordered List</dd>
-        </dl>
+        <video controls width="300px" height="200px" >
+            <source src="welcome.mp4" type="video/mp4" >
+            Your browser does not support the video tag.
+        </video>
+        <br><br>
+        <h1> Registration Form</h1>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="student_name" placeholder= "Enter your name" required >
+            <br><br>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="email@gmail.com" required>
+            <br><br>
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password"  minlength="8" maxlength="15" required>
+            <br><br>
+            <label for="gender">Gender:</label>
+            <input type="radio" name="gender" id="gender" value="Female" >
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="gender" value="Male" >
+            <label for="male">Male</label>
+            <br><br>
+            <label for="Hobbies">Hobbies:</label>
+            <input type="checkbox" name="hobbies" id="hobby_swimming" value="swimming" >
+            <label for="hobby_swimming">Swimming</label>
+            <input type="checkbox" name="hobbies" id="hobby_soccer" value="scoccer" >
+            <label for="hobby_soccer">Soccer</label>
+            <input type="checkbox" name="hobbies" id="hobby_skatting" value="skatting" >
+            <label for="hobby_skatting">Skatting</label>
+           <br><br>
+           <label for="country">Country:</label>
+           <select name="country" id="country">
+                <option value="kenya">Kenya</option>
+                <option value="SA">SA</option>
+                <option value="nigeria">Nigeria</option>
+           </select>
+           <br><br>
+           <label for="dob">Date of Birth:</label>
+           <input type="date" name="dob" id="dob" required>
+           <br><br>
+           <button type="submit">Submit</button>
+           <button type="cancel">Cancel</button>
+        </form>
+        <br><br>
+       <h1>students table</h1>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Mobile No</th>
+                    <th>Emails</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Kelly Ken</td>
+                    <td>56 Main Street</td>
+                    <td>1232231</td>
+                    <td>kelly@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Pinky Patty</td>
+                    <td>23 Back Street</td>
+                    <td>7672677</td>
+                    <td>pinky@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Shee Ricky</td>
+                    <td>Valley Road</td>
+                    <td>6782341</td> 
+                    <td>shee@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Linda Nita</td>
+                    <td>Downtown</td>
+                    <td>0987654</td> 
+                    <td>linda@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Sammy Gift</td>
+                    <td>73 BackStreet</td>
+                    <td>876353441</td> 
+                    <td>sammy@gmail.com</td>
+                </tr>
+            </tbody>
+        </table>
+        <br><br>
+        <img src="laptop.jpg" alt="This is a laptop image" width="200px" height="200px">
+        <img src="laptop2.jpg" alt="This is a laptop image" width="200px" height="200px">
+        <list>
+            <h1>Course Requirements</h1>
+            <ol type="i">
+                <li>Laptop/Desktop</li>
+                <li>Internet</li>
+                <li>2-3 hours daily</li>
+                <li>Basic computer knowledge</li>
+                <li>Notebook</li>
+            </ol>
+          
+        </list>
+        <br><br>
+        <video controls width="300px" height="200px" >
+            <source src="Vibe.mp4" type="video/mp4" >
+            Your browser does not support the video tag.
+        </video>
+       
     </body>
 </html>
