@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+        <header class="header">
+            <h1>Welcome</h1>
+                <nav class="nav">
+                    <a href="">Home</a>
+                    <a href="">About</a>
+                    <a href="">Registration</a>
+                </nav>
+        </header>
+    
+         <main>
+            <img src="images/gym.jpg" alt="someone at the gym" width="300px" height="300px">
+                <img src="images/jogging.jpg" alt="people taking runs" width="300px" height="300px">
+            <div>
+                <h1>Health Wellness</h1>
+                <p>keep your body active as possible by going to the gym, taking walks and jogging</p>
+    
+            </div>
+            <div>
+                <h1>Registration</h1>
+                <h2>Fill the Membership Form</h2>
+                <form id="userForm">
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" id="student_name" placeholder= "Enter your name" required >
+                    <br><br>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" placeholder="email@gmail.com" required>
+                    <br><br>
+                    <label for="password">Password:</label>
+                    <input type="password" name="password" id="password" placeholder="Enter your password" require>
+                    <p id="validationMessage" style="color:red;"></p>
+                    <br><br>
+                    <label for="gender">Gender:</label>
+                    <input type="radio" name="gender" id="gender" value="Female" >
+                    <label for="female">Female</label>
+                    <input type="radio" name="gender" id="gender" value="Male" >
+                    <label for="male">Male</label>
+                    <br><br>
+                    <button type="submit" id="btn">Submit</button>
+                    <button type="reset" id="btn">Reset</button>
+                </form>
+                <p id="greetingMessage" style="color:jungle green;"></p>
+            </div>
+             
+    
+         </main>
+    <script src="script.js"></script>
+</body>
+</html>
