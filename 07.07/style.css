@@ -1,0 +1,21 @@
+.button{
+    width: 80px;
+    height:50px;
+    background-color:rgb(27, 183, 58) ;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.button:hover{
+    background-color:rgb(198, 237, 206) ;
+}
+.button.animate{
+    animation: moveRight 2s ease-in-out;
+    opacity: 0.8;
+}
+@keyframes moveRight{
+    0%{ transform: translateX(0);}
+    100%{ transform:translateX(200px);}
+   
+}
+
